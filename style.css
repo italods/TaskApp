@@ -77,7 +77,6 @@ body{
   height: 3px;
   width: 190px;
   border-radius: 3px;
-
 }
 .avatar{
   height: 30px;
@@ -89,11 +88,12 @@ body{
 
 
 /* RECENTS PROJECTS */
-.title-projects{
+.title-projects{}
 
-}
-.cards-projects{
+.projects{
   margin: 10px;
+  padding: 10px;
+  border: 1px solid orange;
 }
 .card-project{
   width: 400px;
