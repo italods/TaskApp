@@ -40,6 +40,9 @@ body{
   color: white;
   margin-left: 10px;
 }
+.subtitle span{
+  color: var(--VERMELHO);
+}
 .tasks{
   margin: 10px;
   padding: 10px;
@@ -88,9 +91,6 @@ body{
 
 
 /* RECENTS PROJECTS */
-.title-projects{
-
-}
 .projects{
   margin: 10px;
   padding: 10px;
@@ -101,15 +101,17 @@ body{
   height: 215px;
   background-color: var(--CINZA-ESCURO);
   margin: 10px;
-  padding-left: 30px;
+  padding: 24px;
   border-radius: 10px;
   color: white;
+  
+}
+.card-project h6{
+  margin-bottom: 10px;
 }
 .members img{
   height: 30px;
   width: 30px;
   margin-right: 4px;
   border-radius: 5px;
-}
-.card-project h5{
 }
