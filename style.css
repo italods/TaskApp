@@ -34,17 +34,17 @@ body{
   font-weight: 600;
   border-bottom: 1px solid var(--CINZA-CLARO);
 }
+.subtitle{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-left: 10px;
+}
 .tasks{
   margin: 10px;
   padding: 10px;
   border: 1px solid orange;
 }
-/* .tasks h4{
-  font-size: 25px;
-  font-weight: 500;
-  color: white;
-  margin-left: 10px;
-} */
 .container .tasks .container-cards{
   display: flex;
 }
@@ -88,8 +88,9 @@ body{
 
 
 /* RECENTS PROJECTS */
-.title-projects{}
+.title-projects{
 
+}
 .projects{
   margin: 10px;
   padding: 10px;
