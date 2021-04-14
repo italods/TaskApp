@@ -1,0 +1,114 @@
+:root{
+  --CINZA: #383c47;
+  --CINZA-CLARO: #5b677f;
+  --CINZA-ESCURO: #272b34;
+  --VERMELHO: #ff4342;
+  --AZUL: #3173ff;
+  --VERDE: #5ce18e;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+body{
+  background-color: var(--CINZA);
+  font-family: 'Poppins', sans-serif;
+  
+}
+.container{
+  height: 760px;
+  width: 95%;
+  border: 2px solid white;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.title{
+  padding: 25px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 1px solid var(--CINZA-CLARO);
+}
+.tasks{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid orange;
+}
+/* .tasks h4{
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  margin-left: 10px;
+} */
+.container .tasks .container-cards{
+  display: flex;
+}
+.container .tasks .card-tasks{
+  width: 300px;
+  height: 170px;
+  background-color: #3173ff;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 30px;
+  color: white;
+}
+.card-tasks h6{
+  color: #becae2;
+  padding: 38px 0 18px 0;
+}
+.card-tasks h4{
+  color: white;
+  padding-bottom: 30px;
+}
+.card-tasks .progress-tasks{
+  font-size: 10px;
+}
+.line{
+  background: linear-gradient(
+    to right, 
+    white 70%,  
+    black 30%
+  );
+  height: 3px;
+  width: 190px;
+  border-radius: 3px;
+
+}
+.avatar{
+  height: 30px;
+  width: 30px;
+  background: white;
+  display: flex;
+  border-radius: 5px;
+}
+
+
+/* RECENTS PROJECTS */
+.title-projects{
+
+}
+.cards-projects{
+  margin: 10px;
+}
+.card-project{
+  width: 400px;
+  height: 215px;
+  background-color: var(--CINZA-ESCURO);
+  margin: 10px;
+  padding-left: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.members img{
+  height: 30px;
+  width: 30px;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+.card-project h5{
+}
